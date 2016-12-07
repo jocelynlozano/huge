@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>About</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" type="image/png" href="img/favicon-logo.png"/>
+		<link href="https://fonts.googleapis.com/css?family=Karla|Passion+One" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/materialize.min.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/icomoon.css">
+		<link rel="stylesheet" type="text/css" href="css/vendor/animate.css">
+		<link rel="stylesheet" media="all" href="css/vendor/hover.css">
+		<link href="https://fonts.googleapis.com/css?family=Questrial" rel="stylesheet">
+		<link rel="stylesheet" href="css/vendor/remodal/remodal.css">
+		<link rel="stylesheet" href="css/vendor/remodal/remodal-default-theme.css">
+	</head>
+	<body>
+		<header>
+			<div class="hide" id="menu">
+				<ul class="nav-list">
+					<a href="#slider"><img src="img/logo_white.png" title="home" class="line logo-white"></a>
+					<li>
+						<a href="#" title="Work." class="line nav2">Work.</a>
+					</li>
+					<li>
+						 <a href="about.html" title="About." class="line">About.</a>
+					</li>
+					<li>
+						 <a href="#" title="Careers." class="line">Careers.</a>
+					</li>
+					<li>
+						 <a href="#" title="Ideas." class="line">Ideas.</a>
+					</li>
+					<li>
+						 <a href="#" title="Events." class="line">Events.</a>
+					</li>
+					<li>
+						 <a href="contact.html" title="Contact." class="line">Contact.</a>
+					</li>
+				</ul>
+			</div>
+			<div class="menubar">
+				<a href="index.html"><img src="img/logo.png" alt="logo Huge" class="logo"></a>
+				<span class="icon-th-menu rosa" id="bar" data-click-state=1></span>
+			</div>
+		</header>
+		<header>
+			<div class="teaser video">
+				<div id="buttonbar">
+	    			<button  onclick="vidplay()" id="play" class="play button"></button>
+				</div>    
+				<video id="Video1" width="auto" height="auto" preload="metadata" autoplay loop poster="img/about_video.jpg" muted>
+					<source src="img/about.webm" type="video/webm">
+				</video>
+			</div>
+			<h1><span>‘Us.’</span></h1>
+		</header>
+		<script type="text/javascript">
+		    function vidplay() {
+		       var video = document.getElementById("Video1");
+		       var button = document.getElementById("play");
+		       if (video.paused) {
+		          video.play();
+		          button.textContent = "||";
+		       } else {
+		          video.pause();
+		          button.textContent = ">";
+		       }
+		    }
+
+		    function restart() {
+		        var video = document.getElementById("Video1");
+		        video.currentTime = 0;
+		    }
+
+		    function skip(value) {
+		        var video = document.getElementById("Video1");
+		        video.currentTime += value;
+		    }      
+		</script>
+		<main id="top-overlap">
+			<section id="what-we-do">
+				<div class="container-fluid">
+					<h1 class="h1-estilo">What we do.</h1>
+					<h3 class="typed">We create experiences that transform brands, grow businesses and<br> make people’s lives better.</h3>
+					<ul class="strengths clearfix">
+						<li>
+							<div class="video2">
+								<div class="popout">
+									<div class="video-box">
+										<div id="buttonbar2" class="play2 button2">
+							    			<button  onclick="vidplay2()" id="play2" class="play2 button2"></button>
+										</div>  
+										<video id="Video2" preload="metadata" poster="img/chica.jpg">
+											<source class="webm" src="img/dig.webm" type="video/webm"/>
+										</video>
+									</div>
+								</div>
+							</div>
+							<script type="text/javascript">
+							    function vidplay2() {
+							       var video2 = document.getElementById("Video2");
+							       var button2 = document.getElementById("play2");
+							       if (video2.paused) {
+							          video2.play();
+							          button2.textContent = "||";
+							       } else {
+							          video2.pause();
+							          button2.textContent = ">";
+							       }
+							    }
+
+							    function restart() {
+							        var video2 = document.getElementById("Video2");
+							        video2.currentTime = 0;
+							    }
+
+							    function skip(value) {
+							        var video2 = document.getElementById("Video2");
+							        video2.currentTime += value;
+							    }      
+							</script>
+							<div class="copy">
+								<h4 class="estilo-h4copy">Digital business.</h4>
+								<p>Creating products and services that transform<br> organizations for the digital economy.</p>
+							</div>
+						</li>
+						<li>
+							<div class="video3">
+								<div class="popout">
+									<div class="video-box">
+										<div id="buttonbar3" class="play3 button3">
+							    			<button  onclick="vidplay3()" id="play3" class="play3 button3"></button>
+										</div>  
+										<video id="Video3" preload="metadata" poster="img/cel.jpg" >
+											<source class="webm" src="img/integ.webm" type="video/webm"/>
+										</video>
+									</div>
+								</div>
+							</div>
+							<script type="text/javascript">
+							    function vidplay3() {
+							       var video3 = document.getElementById("Video3");
+							       var button3 = document.getElementById("play3");
+							       if (video3.paused) {
+							          video3.play();
+							          button3.textContent = "||";
+							       } else {
+							          video3.pause();
+							          button3.textContent = ">";
+							       }
+							    }
+
+							    function restart() {
+							        var video3 = document.getElementById("Video3");
+							        video3.currentTime = 0;
+							    }
+
+							    function skip(value) {
+							        var video3 = document.getElementById("Video3");
+							        video3.currentTime += value;
+							    }      
+							</script>
+							<div class="copy">
+								<h4 class="estilo-h4copy">Integrated marketing. </h4>
+								<p>Building brands and driving sales with a cross-channel,<br> digitally-led approach to communications.</p>
+							</div>
+						</li>
+					</ul>
+					<div id="capabilities" class="clearfix">
+						<h4 class="estilo-h4capa">Our capabilities.</h4>
+			            <div class="list capability-count-12">
+			            	<div class='capability'>
+			            		<a href="#">Business Strategy.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">User Experience Design.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Social.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Brand & Communications.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="capabilities.html>Creative.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Search.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Data Science.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Technology.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Media.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Research.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">Content.</a>
+			            	</div>
+			            	<div class='capability'>
+			            		<a href="#">CRM.</a>
+			            	</div>
+			            </div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<section id="how-we-work">
+			<h1 class="h1-how">How we work.</h1>
+			<h3 class="typed">Small teams working on big challenges in honest collaboration with our clients.</h3>
+			<div id="process" class="container">
+				<div id="panel1" class="panel">
+					<h4 class="posicion-h41" id="title1">Small Teams</h4>
+					<img src="img/img8.png" class="img-responsive posicion-img1">
+					<ul id="benefits1" class="_right posicion-ul" >
+					    <li>• Interdisciplinary teams<br> with big ideas.</li>
+					    <li class="position-li">• Design and prototyping<br> from day one.</li>
+					</ul>
+				</div>
+				<div id="panel2" class="panel">
+					<h4 class="posicion-h42" id="title2">Client as a <span>partner.</span></h4>
+					<img src="img/img9.png" class="img-responsive posicion-img2">
+					<ul id="benefits2" class="_right posicion-ul">
+					    <li>• Clients join the team to<br> help us truly understand<br> their business.</li>
+					    <li class="position-li">• Putting users first<br> transforms client<br> organizations and how<br> we work together.</li>
+					</ul>
+				</div>
+				<h4 id="title3">A simple, iterative process.</h4>
+				<img src="img/img10.png" class="img-responsive">
+
+		<footer>
+			<div class="container">
+				<a target="" href="http://www.hugeinc.com/h" title="Huge Logo" id="H-logo"> </a>
+	            <p>Make something you love.<sup>TM</sup></p>
+				<div id="meta">
+					<a target="" href="/contactus">Contact &amp; directions</a>
+					<a target="" href="/yourprivacy">Your privacy</a>
+					<a target="" href="/terms">Using this site </a>
+					<a target="" href="http://www.hugeinc.com/ideas/rss">RSS</a>
+					<a target="" href="https://twitter.com/hugeinc">@hugeinc</a>
+					<a target="" href="/news">News</a>
+					<span>© 2016 Huge. All Rights Reserved.</span>
+				</div>
+			</div>
+		</footer>
+		<script type='text/javascript' src='js/vendor/jquery-3.1.1.js'></script>
+		<script type="text/javascript" src="js/vendor/materialize.js"></script>
+		<script src="js/vendor/remodal/remodal.min.js"></script>
+		<script type="text/javascript" src="js/slider.js" ></script>    
+	    <script type="text/javascript" src="js/main.js" ></script>    
+		<script src="js/vendor/viewportchecker.js"></script>
+		<script type="text/javascript" src="js/vendor/letters.js" ></script>
+	</body>
+</html>
